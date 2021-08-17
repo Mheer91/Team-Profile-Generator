@@ -1,6 +1,9 @@
 const Employee = require('../lib/employee');
+
+//This variable defines fake paramaters to test the class. 
 const employee = new Employee("Ralph", 14498, "ralph@ralph.com");
 
+//Cycles through the different parameters of the class. 
 describe("Employee", () => {
     it("should return the employees name", () => {
         expect(employee.name).toEqual("Ralph");

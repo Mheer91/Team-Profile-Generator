@@ -22,9 +22,8 @@
   },
   "homepage": "https://github.com/Mheer91/Team-Profile-Generator#readme",
   "dependencies": {
+    "inquirer": "^8.1.2",
     "jest": "^27.0.6",
     "node": "^16.6.1"
   }
- 
 }
-
